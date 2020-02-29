@@ -1,0 +1,21 @@
+<%- include('../partials/header') %>
+
+<div class="container">
+    <h1>Cadastro de Pessoa</h1>
+    <form method="POST">
+        <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" placeholder="Pedro">
+    </div>
+        <div class="form-group">
+        <label for="nascimento">Nascimento</label>
+        <input type="text" class="form-control" id="nascimento" name="nascimento" placeholder="Ano-Mês-Dia">
+        </div>
+        <div class="form-group">
+            <label for="cargo">Cargo</label>
+            <input type="text" class="form-control" id="cargo" name="cargo" placeholder="Developer">
+        </div>    
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+</div>
+<%- include('../partials/footer') %>

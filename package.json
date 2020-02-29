@@ -1,0 +1,30 @@
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "description": "Crud com Mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.10.0"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroAlisson/CRUD_MYSQL.git"
+  },
+  "author": "PedroAlisson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroAlisson/CRUD_MYSQL/issues"
+  },
+  "homepage": "https://github.com/PedroAlisson/CRUD_MYSQL#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
